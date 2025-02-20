@@ -76,6 +76,8 @@ If I want to send this to remote then command is -> git push
 But, have we connected this to remote -> No -> How to do that ?
 -> go to github.com -> then create a new repository -> give its name and make it public
 -> then, since we have some code/ this intellij code to be pushed to remote/Github, so we execute these commands -->
-
+git remote add origin https://github.com/manvendra10/Learning_OOPS_1.git
+git branch -M main
+git push -u origin main
 
  */
