@@ -25,7 +25,7 @@ public class Main {
 /*
 How to use Debugger in IntellijIdea -> " How to debug a java code ??? "
 1. select the line and put a breakpoints
-2. next to run button -> there is bug button (shift+f9) -> click on this bug button
+2. next to run button(shift + f10) -> there is bug button (shift+f9) -> click on this bug button
 3. step over --->
 execute things line by line
 don't go inside the function
@@ -35,7 +35,7 @@ if we want to go into inside the function then select step into
 6. if we have 2 breakpoints at two lines. we want to jump to 2nd breakpoint directly from the 1st breakpoint
 -> here, we will execute all the lines b/w 1st breakpoint and 2nd breakpoint
 In order to jump to 2nd breakpoint directly from the 1st breakpoint, we use ->
-"Resume Program button/f9(Left panel button) { Green Colour Button }
+"Resume Program button"/f9(Left panel button) { Green Colour Button }
  */
 
 /*
@@ -49,7 +49,7 @@ git status  { it shows all the folder and files which are tracked by git current
 .src/
 
 In .gitigonore folder ->
-anything you mention here { git will ignore it }
+anything you mention here { git will ignore it....git will not track it }
 It will not show in the staging section
 I want to add all files of .idea folder here -> since i don't want .idea folder files to be tracked by git
 so -> I will write
